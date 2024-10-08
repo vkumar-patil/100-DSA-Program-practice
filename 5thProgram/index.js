@@ -96,4 +96,4 @@ console.log(ar[zzz - 1], ar[ar.length - zzz]);
 let xr = [1, 2, 3, 4, 2, 6, 2, 7, 9];
 let frequency = {};
 xr.forEach((e) => (frequency[e] = (frequency[e] || 0) + 1));
-console.log(frequency)
+console.log(frequency);
