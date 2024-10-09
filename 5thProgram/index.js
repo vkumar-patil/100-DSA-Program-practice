@@ -97,3 +97,29 @@ let xr = [1, 2, 3, 4, 2, 6, 2, 7, 9];
 let frequency = {};
 xr.forEach((e) => (frequency[e] = (frequency[e] || 0) + 1));
 console.log(frequency);
+
+//6. Rotate an array to the right by d positions
+let vrr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+let dd = 3;
+let oo = arr.slice(-dd).concat(vrr.slice(0, -dd));
+console.log(oo);
+
+let vee = [1, 2, 3, 3, 4, 5, 6, 7, 89, 5, 6, 7, 8, 9, 2, 4, 5, 6, 7];
+let cc = 4;
+let pp = vee.slice(-cc).concat(vee.slice(0, -cc));
+console.log(pp);
+
+let stt = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+let ee = 5;
+let vnp = stt.slice(ee).concat(stt.slice(0, ee));
+console.log(vnp);
+
+let stty = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+let eee = 5;
+let vnpt = stt.slice(-ee).concat(stt.slice(0, -ee));
+console.log(vnpt);
+
+let oop = [1, 2, 3, 4, 5, 62, 2, 3, 3, 3];
+let veee = 4;
+let vnnp = oop.slice(veee).concat(oop.slice(0, veee));
+console.log(vnnp);
