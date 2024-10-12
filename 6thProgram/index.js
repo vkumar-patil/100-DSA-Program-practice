@@ -9,3 +9,8 @@ let d = [1, 2, 3, 4, 5];
 let e = [7, 3, 24, 5, 6, 7, 8, 9];
 const f = d.concat(e).sort((x, y) => x - y);
 console.log(f);
+
+let g = [12, 3, 4, 5, 6, 7, 8, 9, 10];
+let h = [5, 6, 7, 9, 22, 50, 6, 15, 26];
+const i = g.concat(h).sort((x, y) => x - y);
+console.log(i);
