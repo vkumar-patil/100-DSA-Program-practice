@@ -23,3 +23,15 @@ const f = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 const g = [...new Set([...e, ...f])];
 const h = e.filter((x) => f.includes(x));
 console.log(g, h);
+
+let i = [1, 2, 3, 4, 5, 7, 8];
+let j = [1, 2, 3, 4, 11, 12, 13, 14];
+let k = [...new Set([...i, ...j])];
+let l = i.filter((x) => j.includes(x));
+console.log(k, l);
+
+let m = [1, 2, 3, 4, 5, 6];
+let n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
+let o = [...new Set([...m, n])];
+let p = m.filter((x) => n.includes(x));
+console.log(o, p);
