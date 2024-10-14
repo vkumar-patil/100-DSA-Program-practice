@@ -35,3 +35,21 @@ let n = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
 let o = [...new Set([...m, n])];
 let p = m.filter((x) => n.includes(x));
 console.log(o, p);
+
+let q = [1, 2, 3, 4, 5, 6, 7];
+let r = [1, 2, 3, 4, 8, 9, 10, 11, 12, 13, 14, 15];
+let s = [...new Set([...q, ...r])];
+let t = q.filter((x) => r.includes(x));
+console.log(s, t);
+
+u = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+v = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
+w = [...new Set([...u, ...v])];
+x = u.filter((x) => v.includes(x));
+console.log(w, x);
+
+y = [1, 2, 3, 4];
+z = [1, 2, 3, 4, 5, 6, 7];
+aa = [...new Set([...y, ...z])];
+bb = y.filter((x) => z.includes(x));
+console.log(aa, bb);
