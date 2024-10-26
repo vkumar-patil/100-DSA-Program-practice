@@ -20,3 +20,8 @@ let s = "hello world";
 let vowels = s.match(/[aeiou]/gi)?.length || 0;
 let consonants = s.match(/[bcdfghjklmnpqrstvwxyz]/gi)?.length || 0;
 console.log("Vowels:", vowels, "Consonants:", consonants);
+
+let t = "hello world";
+let vowelss = s.match(/[aeiou]/gi)?.length || 0;
+let consonantss = s.match(/[bcdfghjklmnpqrstvwxyz]/gi)?.length || 0;
+console.log("Vowels:", vowels, "Consonants:", consonants);
