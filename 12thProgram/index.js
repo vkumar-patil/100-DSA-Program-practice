@@ -25,3 +25,9 @@ let t = "hello world";
 let vowelss = s.match(/[aeiou]/gi)?.length || 0;
 let consonantss = s.match(/[bcdfghjklmnpqrstvwxyz]/gi)?.length || 0;
 console.log("Vowels:", vowels, "Consonants:", consonants);
+
+//16. Remove duplicates from a string
+
+let w= "hello";
+let uniqueStr = [...new Set(s)].join('');
+console.log(uniqueStr);
