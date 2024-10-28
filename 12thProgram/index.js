@@ -31,3 +31,9 @@ console.log("Vowels:", vowels, "Consonants:", consonants);
 let w= "hello";
 let uniqueStr = [...new Set(s)].join('');
 console.log(uniqueStr);
+
+//17. Find the first non-repeating character in a string
+
+let ss = "swiss";
+let firstNonRepeating = [...s].find(char => s.indexOf(char) === s.lastIndexOf(char));
+console.log(firstNonRepeating);
