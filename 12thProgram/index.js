@@ -37,3 +37,7 @@ console.log(uniqueStr);
 let ss = "swiss";
 let firstNonRepeating = [...s].find(char => s.indexOf(char) === s.lastIndexOf(char));
 console.log(firstNonRepeating);
+
+let sss = "swiss";
+let firstNonRepeatingg = [...s].find(char => s.indexOf(char) === s.lastIndexOf(char));
+console.log(firstNonRepeating);
