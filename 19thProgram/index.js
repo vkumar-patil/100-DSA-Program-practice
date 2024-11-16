@@ -16,3 +16,13 @@ function sumnum() {
   );
 }
 sumnum();
+
+const nnumber = 12234;
+function suum(nnumber) {
+  console.log(
+    String(nnumber)
+      .split("")
+      .reduce((sum, digit) => sum + Number(digit), 0)
+  );
+}
+suum(nnumber);
