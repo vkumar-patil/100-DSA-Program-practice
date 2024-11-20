@@ -33,4 +33,14 @@ function EO() {
     console.log("odd ok");
   }
 }
-EO();
+EorO();
+
+
+//print is the even
+// const arr=[1,2,3,4,5]
+// const brr=arr.filter(e=>{e %2===0})
+// console.log(brr)
+
+const arr = [1, 2, 3, 4, 5];
+const evenNumbers = arr.filter(e => e % 2 === 0); // Filter even numbers
+console.log(evenNumbers); // Output:
