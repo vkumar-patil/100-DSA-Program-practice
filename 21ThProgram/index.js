@@ -17,3 +17,8 @@ function fectt(p) {
   return p <= 1 ? 1 : p * fectt(p - 1);
 }
 console.log(fectt(p));
+const q = 4;
+function ffact(q) {
+  return q <= 1 ? 1 : q * ffact(q - 1);
+}
+console.log(ffact(q));
