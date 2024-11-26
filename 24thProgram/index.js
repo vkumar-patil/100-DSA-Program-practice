@@ -13,3 +13,10 @@ function print(row) {
   }
 }
 print(5);
+
+function print(roww) {
+  for (let i = 1; i <= roww; i++) {
+    console.log("".repeat(roww - i) + "*".repeat(1 * i - 1));
+  }
+}
+print(7);
