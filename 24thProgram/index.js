@@ -16,7 +16,19 @@ print(5);
 
 function print(roww) {
   for (let i = 1; i <= roww; i++) {
-    console.log("".repeat(roww - i) + "*".repeat(1 * i - 1));
+    console.log("".repeat(roww - i) + "*".repeat(2 * i - 1));
   }
 }
 print(7);
+
+function p(r) {
+  for (let i = 1; i <= r; i++) {
+    console.log(" ".repeat(r + i) + "*".repeat(r - i) + " ".repeat(r - i));
+  }
+}
+p(7);
+
+function q(rof) {
+   return rof.split("").reverse().join("");
+}
+console.log(q("mam"));
