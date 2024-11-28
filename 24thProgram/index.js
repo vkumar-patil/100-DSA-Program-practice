@@ -29,6 +29,11 @@ function p(r) {
 p(7);
 
 function q(rof) {
-   return rof.split("").reverse().join("");
+  return rof.split("").reverse().join("");
 }
 console.log(q("mam"));
+// 17. Generate a random number within a range
+function randomInRange(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+console.log(randomInRange(10, 20));
