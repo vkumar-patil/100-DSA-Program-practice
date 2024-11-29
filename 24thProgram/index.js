@@ -37,3 +37,8 @@ function randomInRange(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 console.log(randomInRange(10, 20));
+
+// 20. Remove whitespace from a string
+function removeWhitespace(str) {
+  return str.replace(/\s+/g, "");
+}
