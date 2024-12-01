@@ -39,6 +39,8 @@ function randomInRange(min, max) {
 console.log(randomInRange(10, 20));
 
 // 20. Remove whitespace from a string
+const str = "vijay patil";
 function removeWhitespace(str) {
   return str.replace(/\s+/g, "");
 }
+console.log(removeWhitespace(str));
