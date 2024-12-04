@@ -26,3 +26,9 @@ function sumEven(arr) {
   return arr.filter((n) => n % 2 === 0).reduce((a, b) => a + b, 0);
 }
 console.log(sumEven(arr));
+
+const brr = [1, 2, 3, 4, 5, 6];
+function num(brr) {
+  return brr.filter((m) => m % 2 !== 0).reduce((a, b) => a + b, 0);
+}
+console.log(num(brr));
