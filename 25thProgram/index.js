@@ -32,3 +32,21 @@ function num(brr) {
   return brr.filter((m) => m % 2 !== 0).reduce((a, b) => a + b, 0);
 }
 console.log(num(brr));
+
+// // 32. Sort an array in ascending order
+function sortAscending(arr) {
+  return arr.sort((a, b) => a - b);
+}
+console.log(sortAscending(arr));
+
+// 33. Sort an array in descending order
+function sortDescending(arr) {
+  return arr.sort((a, b) => b - a);
+}
+console.log(sortDescending(arr));
+
+// 37. Find the square root of a number
+function squareRoot(num) {
+  return Math.sqrt(num);
+}
+console.log(squareRoot(60))
