@@ -49,4 +49,9 @@ console.log(sortDescending(arr));
 function squareRoot(num) {
   return Math.sqrt(num);
 }
-console.log(squareRoot(60))
+console.log(squareRoot(60));
+
+// 38. Convert decimal to binary
+function decimalToBinary(num) {
+  return num.toString(2);
+}
